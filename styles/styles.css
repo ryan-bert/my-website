@@ -2,8 +2,9 @@
 
 :root {
     --dark: #1e1e1e;
+    --grey: #5a5a5a;
     --light: #c3c3c3;
-    --warning: #ff0000;
+    --red: #ff0000;
 }
 
 /******************************** Global Styles ********************************/
@@ -58,12 +59,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    /* Font color */
+    color: var(--light);
     padding: 5px 10px;
 }
 
 nav ul li a:hover {
-    background-color: #ddd;
+    background-color: var(--grey);
 }
 
 /******************************** Main Styles ********************************/
