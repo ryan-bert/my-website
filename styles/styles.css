@@ -1,3 +1,11 @@
+/******************************** Variables ********************************/
+
+:root {
+    --dark: #1e1e1e;
+    --light: #c3c3c3;
+    --warning: #ff0000;
+}
+
 /******************************** Global Styles ********************************/
 
 body {
@@ -8,9 +16,9 @@ body {
     /* Enable smooth scrolling */
     scroll-behavior: smooth;
     /* Background color */
-    background-color: #1e1e1e;
+    background-color: var(--dark);
     /* Text color */
-    color: #c3c3c3;
+    color: var(--light);
 }
 
 /******************************** Header Styles ********************************/
@@ -19,9 +27,9 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #f8f8f8;
+    background: var(--dark);
     padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px var(--warning);
     z-index: 1000;
 }
 
