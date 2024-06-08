@@ -1,0 +1,31 @@
+/******************************** Global Styles ********************************/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    /* Enable smooth scrolling */
+    scroll-behavior: smooth;
+    /* Background color */
+    background-color: #1e1e1e;
+    /* Text color */
+    color: #c3c3c3;
+}
+
+/******************************** Header Styles ********************************/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #f8f8f8;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    display: inline;
+}
