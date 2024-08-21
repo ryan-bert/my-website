@@ -1,9 +1,9 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}', // Scan your React files for Tailwind
+  ],
   theme: {
     extend: {},
   },
   plugins: [],
-}
-
+};
