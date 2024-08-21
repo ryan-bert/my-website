@@ -4,7 +4,7 @@ import Hero from './components/hero';
 
 export default function App() {
   return (
-    <div className='bg-black'>
+    <div className='bg-black pb-[1500px]'>
       <NavBar />
       <Hero />
       <div  className='text-3xl'>
