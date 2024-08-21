@@ -8,7 +8,7 @@ export default function App() {
     <div className='bg-black pb-[1500px] text-white'>
       <NavBar />
       <Hero />
-      <section className="flex flex-col pt-[60px]">
+      <section className="flex flex-col pt-[60px] px-8">
         <ProjectCard />
       </section>
     </div>
