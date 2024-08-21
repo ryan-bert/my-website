@@ -1,15 +1,16 @@
 import React from 'react';
 import NavBar from './components/nav-bar';
 import Hero from './components/hero';
+import ProjectCard from './components/project-card';
 
 export default function App() {
   return (
-    <div className='bg-black pb-[1500px]'>
+    <div className='bg-black pb-[1500px] text-white'>
       <NavBar />
       <Hero />
-      <div  className='text-3xl'>
-        <h1>Hello, world!</h1>
-      </div>
+      <section className="flex flex-col pt-[60px]">
+        <ProjectCard />
+      </section>
     </div>
   );
 }
