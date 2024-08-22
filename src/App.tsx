@@ -9,6 +9,7 @@ export default function App() {
       <NavBar />
       <Hero />
       <section className="flex flex-col pt-[60px] px-8">
+        <h1 className="text-5xl">My Projects</h1>
         <ProjectCard />
       </section>
     </div>
