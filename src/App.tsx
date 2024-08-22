@@ -10,7 +10,7 @@ export default function App() {
       <body className='bg-black pb-[1500px] text-white'>
         <NavBar />
         <Hero />
-        <section className="flex flex-col py-[60px] px-8">
+        <section id='projects' className="flex flex-col py-[60px] px-8">
         <h1 className="text-5xl text-center">
           <span>My </span>
           <span className="px-5 py-1 rounded-xl font-source bg-secondary">Projects</span>
@@ -19,7 +19,7 @@ export default function App() {
           <ProjectCard />
           <ProjectCard />
         </section>
-        <section className='py-[60px]'>
+        <section id='about' className='py-[60px]'>
           <h1 className="text-5xl text-center">
             <span className="px-5 py-1 rounded-xl font-source bg-secondary">About</span>
             <span>Me</span>
