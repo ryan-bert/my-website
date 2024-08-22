@@ -5,7 +5,8 @@ import ProjectCard from './components/project-card';
 
 export default function App() {
   return (
-    <div className='bg-black pb-[1500px] text-white'>
+    <>
+    <body className='bg-black pb-[1500px] text-white'>
       <NavBar />
       <Hero />
       <section className="flex flex-col pt-[60px] px-8">
@@ -14,6 +15,13 @@ export default function App() {
         <ProjectCard />
         <ProjectCard />
       </section>
-    </div>
+    </body>
+    <footer>
+      <div className=" flex flex-row p-4 bg-secondary text-white text-center">
+        <p>© 2021 My Portfolio</p>
+        <a href=""></a>
+      </div>
+    </footer>
+    </>
   );
 }
