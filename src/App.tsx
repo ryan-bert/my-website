@@ -20,13 +20,13 @@ export default function App() {
       <footer>
         <div className="flex flex-col items-center p-4 bg-secondary text-white text-center">
           <div className="flex space-x-4 mb-2">
-            <a href="https://github.com/your-github-link" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/ryan-bert" target="_blank" rel="noopener noreferrer">
               <FaGithub size={30} />
             </a>
-            <a href="https://www.imdb.com/your-imdb-link" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.imdb.com/user/ur58431544/ratings/?sort=top_rated%2Cdesc" target="_blank" rel="noopener noreferrer">
               <FaImdb size={30} />
             </a>
-            <a href="https://www.goodreads.com/your-goodreads-link" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.goodreads.com/user/show/155746857-ryan-bertschinger" target="_blank" rel="noopener noreferrer">
               <FaGoodreads size={30} />
             </a>
           </div>
