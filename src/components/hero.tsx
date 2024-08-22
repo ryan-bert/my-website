@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="relative h-screen flex items-center justify-center">
+    <div className="relative h-[50vh] flex items-center justify-center">
       {/* Background Image with Gradients at Top and Bottom */}
       <div
         className="absolute inset-0 bg-cover bg-center filter blur-md"
