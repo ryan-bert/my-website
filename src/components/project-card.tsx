@@ -1,7 +1,7 @@
 export default function ProjectCard() {
   return (
     <div className="pt-12">
-      <div className="flex flex-row h-[300px] px-4 pt-4 rounded-xl bg-gray-600">
+      <div className="flex flex-row h-[300px] px-4 pt-4 rounded-xl bg-secondary outline outline-1 outline-gray-600">
         {/* Column container with height matching the row */}
         <div className="flex flex-col h-full">
           <h1 className="text-4xl">Card Counting Simulator</h1>
