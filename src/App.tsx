@@ -10,11 +10,14 @@ export default function App() {
       <body className='bg-black pb-[1500px] text-white'>
         <NavBar />
         <Hero />
-        <section className="flex flex-col pt-[60px] px-8">
+        <section className="flex flex-col py-[60px] px-8">
           <h1 className="text-5xl">My Projects</h1>
           <ProjectCard />
           <ProjectCard />
           <ProjectCard />
+        </section>
+        <section className='py-[60px]'>
+          <h1 className="text-5xl text-center">About Me</h1>
         </section>
       </body>
       <footer>
