@@ -11,13 +11,19 @@ export default function App() {
         <NavBar />
         <Hero />
         <section className="flex flex-col py-[60px] px-8">
-          <h1 className="text-5xl">My Projects</h1>
+        <h1 className="text-5xl text-center">
+          <span>My </span>
+          <span className="px-5 py-1 rounded-xl font-source bg-secondary">Projects</span>
+        </h1>
           <ProjectCard />
           <ProjectCard />
           <ProjectCard />
         </section>
         <section className='py-[60px]'>
-          <h1 className="text-5xl text-center">About Me</h1>
+          <h1 className="text-5xl text-center">
+            <span className="px-5 py-1 rounded-xl font-source bg-secondary">About</span>
+            <span>Me</span>
+          </h1>
         </section>
       </body>
       <footer>
