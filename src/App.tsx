@@ -11,6 +11,8 @@ export default function App() {
       <section className="flex flex-col pt-[60px] px-8">
         <h1 className="text-5xl">My Projects</h1>
         <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
       </section>
     </div>
   );
