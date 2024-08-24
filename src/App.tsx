@@ -54,7 +54,7 @@ export default function App() {
               <FaGoodreads size={30} />
             </a>
           </div>
-          <p>© 2021 My Portfolio</p>
+          <p className='text-xs'>© 2021 My Portfolio</p>
         </div>
       </footer>
     </>
