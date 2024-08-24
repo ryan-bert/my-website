@@ -15,9 +15,16 @@ export default function App() {
           <span className='font-alpha'>My </span>
           <span className="px-5 py-1 rounded-xl font-source bg-tertiary">projects();</span>
         </h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
           <ProjectCard />
           <ProjectCard />
           <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+          <ProjectCard />
+
+        </div>
         </section>
         <section id='about' className='py-[60px]'>
           <h1 className="text-5xl text-center">
