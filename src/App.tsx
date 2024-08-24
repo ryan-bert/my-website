@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './components/nav-bar';
 import Hero from './components/hero';
 import ProjectCard from './components/project-card';
+import ProfileCard from './components/profile-card';
 import { FaGithub, FaImdb, FaGoodreads } from 'react-icons/fa';
 
 export default function App() {
@@ -38,6 +39,7 @@ export default function App() {
             <span className="text-white">;</span>
           </span>
           </h1>
+          <ProfileCard />
         </section>
       </body>
       <footer>

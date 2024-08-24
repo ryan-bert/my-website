@@ -1,7 +1,7 @@
 export default function ProfileCard() {
   return (
-    <div className="flex flex-col rounded-xl bg-secondary">
-        <img src="me.png" alt="Display Photo" />
+    <div className="flex flex-col w-[400px] rounded-xl bg-secondary">
+        <img src="me.jpg" alt="Display Photo" />
     </div>
   );
 }
