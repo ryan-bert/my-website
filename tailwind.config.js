@@ -7,8 +7,10 @@ module.exports = {
       colors: {
         primary: '#000000',
         secondary: '#1c1c1c',
+        tertiary: '#3c4039',
       },
       fontFamily: {
+        alpha: ['Alfa Slab One', 'cursive'], // Add Alfa Slab One
         source: ['Source Code Pro', 'monospace'], // Add Source Code Pro
       },
     },

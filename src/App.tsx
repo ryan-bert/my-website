@@ -12,8 +12,8 @@ export default function App() {
         <Hero />
         <section id='projects' className="flex flex-col py-[60px] px-8">
         <h1 className="text-5xl text-center">
-          <span>My </span>
-          <span className="px-5 py-1 rounded-xl font-source bg-secondary">projects();</span>
+          <span className='font-alpha'>My </span>
+          <span className="px-5 py-1 rounded-xl font-source bg-tertiary">projects();</span>
         </h1>
           <ProjectCard />
           <ProjectCard />
@@ -21,8 +21,8 @@ export default function App() {
         </section>
         <section id='about' className='py-[60px]'>
           <h1 className="text-5xl text-center">
-            <span>About</span>
-            <span className="px-5 py-1 rounded-xl font-source bg-secondary">me()</span>
+            <span className='font-alpha'>About </span>
+            <span className="px-5 py-1 rounded-xl font-source bg-tertiary">me();</span>
           </h1>
         </section>
       </body>
