@@ -11,7 +11,7 @@ export default function App() {
         <NavBar />
         <Hero />
         <section id='projects' className="flex flex-col py-[60px] px-8">
-        <h1 className="text-5xl text-center">
+        <h1 className="py-10 text-5xl text-center">
           <span className='font-alpha'>My </span>
           <span className="px-5 py-1 rounded-xl font-source font-semibold bg-tertiary">
             <span className="text-mygreen">projects</span>
@@ -27,7 +27,6 @@ export default function App() {
           <ProjectCard />
           <ProjectCard />
           <ProjectCard />
-
         </div>
         </section>
         <section id='about' className='py-[60px]'>
