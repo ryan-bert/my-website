@@ -3,10 +3,16 @@ import Tag from "./tag";
 export default function ProjectCard() {
   return (
     <div className="pt-12">
-      <div className="flex flex-row h-[300px] px-4 pt-4 rounded-xl bg-secondary outline outline-1 outline-gray-600 shadow-[5px_7px_10px_rgba(255,255,255,0.3)]">
+      <div
+        className="flex flex-row h-[300px] px-4 pt-4 rounded-xl bg-secondary outline outline-1 outline-gray-600 shadow-[5px_7px_10px_rgba(255,255,255,0.3)] transition-transform duration-300 ease-in-out hover:scale-105"
+      >
         <div className="flex flex-col h-full">
           <h1 className="text-3xl pb-2">Card Counting Simulator</h1>
-          <img src="simulation.png" alt="Code" className="max-h-[80%] object-contain rounded-xl" />
+          <img
+            src="simulation.png"
+            alt="Code"
+            className="max-h-[80%] object-contain rounded-xl"
+          />
         </div>
         <div className="flex flex-col h-full w-1/2">
           <div className="text-right">

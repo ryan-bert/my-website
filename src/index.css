@@ -4,6 +4,11 @@
 
 .my-button {
   @apply bg-white text-black font-semibold rounded-lg hover:bg-secondary hover:text-white hover:outline hover:outline-4;
+  transition: transform 0.3s ease-in-out; /* smooth scaling */
+}
+
+.my-button:hover {
+  transform: scale(1.2); /* Scale to 120% on hover */
 }
 
 html {
