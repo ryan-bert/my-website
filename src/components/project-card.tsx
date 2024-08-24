@@ -1,3 +1,5 @@
+import Tag from "./tag";
+
 export default function ProjectCard() {
   return (
     <div className="pt-12">
@@ -9,7 +11,9 @@ export default function ProjectCard() {
           <img src="simulation.png" alt="Code" className="max-h-[80%] object-contain rounded-xl" />
         </div>
         <div className="flex flex-col h-full w-1/2">
-          <p className=" text-right">Python</p>
+          <div className="text-right">
+            <Tag />
+          </div>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates similique doloremque atque et dolor itaque, blanditiis minus debitis neque voluptas optio rerum pariatur provident quia asperiores nam commodi aperiam corporis.</p>
           <div className="text-right">
             <button className="w-fit p-2 bg-white text-black font-semibold rounded-lg">
