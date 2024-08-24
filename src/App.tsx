@@ -13,7 +13,11 @@ export default function App() {
         <section id='projects' className="flex flex-col py-[60px] px-8">
         <h1 className="text-5xl text-center">
           <span className='font-alpha'>My </span>
-          <span className="px-5 py-1 rounded-xl font-source bg-tertiary">projects();</span>
+          <span className="px-5 py-1 rounded-xl font-source font-semibold bg-tertiary">
+            <span className="text-mygreen">projects</span>
+            <span className="text-mypink">()</span>
+            <span className="text-white">;</span>
+          </span>
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
           <ProjectCard />
@@ -29,7 +33,11 @@ export default function App() {
         <section id='about' className='py-[60px]'>
           <h1 className="text-5xl text-center">
             <span className='font-alpha'>About </span>
-            <span className="px-5 py-1 rounded-xl font-source bg-tertiary">me();</span>
+            <span className="px-5 py-1 rounded-xl font-source font-semibold bg-tertiary">
+            <span className="text-mygreen">me</span>
+            <span className="text-mypink">()</span>
+            <span className="text-white">;</span>
+          </span>
           </h1>
         </section>
       </body>
