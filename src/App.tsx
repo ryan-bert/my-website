@@ -13,7 +13,7 @@ export default function App() {
         <section id='projects' className="flex flex-col py-[60px] px-8">
         <h1 className="text-5xl text-center">
           <span>My </span>
-          <span className="px-5 py-1 rounded-xl font-source bg-secondary">Projects</span>
+          <span className="px-5 py-1 rounded-xl font-source bg-secondary">projects();</span>
         </h1>
           <ProjectCard />
           <ProjectCard />
@@ -21,8 +21,8 @@ export default function App() {
         </section>
         <section id='about' className='py-[60px]'>
           <h1 className="text-5xl text-center">
-            <span className="px-5 py-1 rounded-xl font-source bg-secondary">About</span>
-            <span>Me</span>
+            <span>About</span>
+            <span className="px-5 py-1 rounded-xl font-source bg-secondary">me()</span>
           </h1>
         </section>
       </body>
