@@ -2,24 +2,42 @@ import Tag from "./tag";
 
 export default function ProjectCard() {
   return (
-    <div
-      className="flex flex-row h-[300px] px-4 my-10 mx-40 rounded-xl bg-secondary outline outline-1 outline-gray-600 shadow-[15px_15px_30px_rgba(255,255,255,0.3)] transition-transform duration-300 ease-in-out hover:scale-105"
-    >
-      <div className="flex flex-col h-full">
-        <h1 className="text-3xl pb-2">Card Counting Simulator</h1>
+    <div className="flex flex-row h-auto px-4 py-6 my-10 mx-40 rounded-xl bg-secondary outline outline-1 outline-gray-600 shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
+      {/* Left Column: Heading and Image */}
+      <div className="flex flex-col justify-start w-1/3 pr-4">
+        <h1 className="text-3xl pb-4">Card Counting Simulator</h1>
         <img
           src="simulation.png"
           alt="Code"
-          className="max-h-[80%] object-contain rounded-xl"
+          className="object-cover rounded-xl max-w-full max-h-60"
         />
       </div>
-      <div className="flex flex-col h-full w-1/2">
-        <div className="text-right">
-          <Tag />
+
+      {/* Right Column: Tags, Description, and Button */}
+      <div className="flex flex-col justify-between w-2/3 pl-4 relative">
+        {/* Tags in the top right */}
+        <div className="absolute top-0 right-0">
+          <div className="flex flex-row space-x-3 ">
+            <Tag />
+            <Tag />
+            <Tag />
+            <Tag />
+          </div>
         </div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates similique doloremque atque et dolor itaque, blanditiis minus debitis neque voluptas optio rerum pariatur provident quia asperiores nam commodi aperiam corporis.</p>
-        <div className="text-right">
-          <button className="w-fit p-2 my-button">
+
+        {/* Description Text */}
+        <div className="flex-grow mt-20">
+          <p className="text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+            similique doloremque atque et dolor itaque, blanditiis minus debitis
+            neque voluptas optio rerum pariatur provident quia asperiores nam
+            commodi aperiam corporis.
+          </p>
+        </div>
+
+        {/* Button in the bottom right */}
+        <div className="text-right mt-4">
+          <button className="w-fit px-4 py-2 my-button">
             View Project
           </button>
         </div>
