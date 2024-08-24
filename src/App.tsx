@@ -19,7 +19,7 @@ export default function App() {
             <span className="text-white">;</span>
           </span>
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+        <div className="flex flex-col">
           <ProjectCard />
           <ProjectCard />
           <ProjectCard />

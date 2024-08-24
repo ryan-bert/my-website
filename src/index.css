@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.my-button {
+  @apply bg-white text-black font-semibold rounded-lg hover:bg-secondary hover:text-white hover:outline hover:outline-4;
+}
+
 html {
   scroll-behavior: smooth;
 }

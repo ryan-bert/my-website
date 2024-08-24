@@ -14,7 +14,7 @@ export default function ProjectCard() {
           </div>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates similique doloremque atque et dolor itaque, blanditiis minus debitis neque voluptas optio rerum pariatur provident quia asperiores nam commodi aperiam corporis.</p>
           <div className="text-right">
-            <button className="w-fit p-2 bg-white text-black font-semibold rounded-lg">
+            <button className="w-fit p-2 my-button">
               View Project
             </button>
           </div>
