@@ -2,12 +2,12 @@ import { Vortex } from "./ui/vortex";
 
 export default function Hero() {
   return (
-    <div className="w-[calc(100%-4rem)] mx-auto rounded-md  h-[75vh] overflow-hidden">
+    <div className="mx-auto rounded-md  h-[100vh] overflow-hidden">
       <Vortex
         backgroundColor="black"
         rangeY={500}
-        particleCount={400}
-        baseHue={120}
+        particleCount={2000}
+        baseHue={20}
         className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
       >
         <h2 className="text-white text-2xl md:text-6xl font-bold text-center">
