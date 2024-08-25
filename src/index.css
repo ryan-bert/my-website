@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.my-shadow {
-  @apply shadow-[10px_10px_30px_rgba(255,255,255,0.3)]
-}
-
 .my-button {
   @apply bg-white text-black font-semibold rounded-lg hover:bg-secondary hover:text-white hover:outline hover:outline-4;
   transition: transform 0.3s ease-in-out; /* smooth scaling */
