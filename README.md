@@ -30,4 +30,5 @@
 
 ### Final stretch
 - Optimisation?
+- Documentation
 - Deployment
