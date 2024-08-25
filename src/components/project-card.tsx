@@ -2,8 +2,7 @@ import Tag from "./tag";
 
 export default function ProjectCard() {
   return (
-    
-    <div className="flex flex-row h-auto p-7 z-50 rounded-3xl bg-secondary outline outline-4 outline-tertiary my-shadow">
+    <div className="flex flex-row h-auto p-7 z-50 rounded-3xl bg-secondary outline outline-4 outline-tertiary my-shadow hover:outline-white hover:scale-[1.05] hover:shadow-none transition-all duration-500 ease-in-out">
       <div className="flex flex-col justify-start pr-4 w-[1200px]">
         <h1 className="text-4xl font-bold pb-4">Card Counting Simulator</h1>
         <img
@@ -15,11 +14,11 @@ export default function ProjectCard() {
       <div className="flex flex-col justify-between pl-4 relative">
         <div className="absolute top-0 right-0">
           <div className="flex flex-row space-x-3 font-semibold">
-            <Tag text="Python" color="bg-orange-400"/>
-            <Tag text="pandas" color="bg-red-400"/>
-            <Tag text="numpy" color="bg-green-600"/>
-            <Tag text="Statistics" color="bg-blue-400"/>
-            <Tag text="TensorFlow" color="bg-orange-400"/>
+            <Tag text="Python" color="bg-orange-400" />
+            <Tag text="pandas" color="bg-red-400" />
+            <Tag text="numpy" color="bg-green-600" />
+            <Tag text="Statistics" color="bg-blue-400" />
+            <Tag text="TensorFlow" color="bg-orange-400" />
           </div>
         </div>
         <div className="flex-grow mt-20">
