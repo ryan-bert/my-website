@@ -1,4 +1,4 @@
-import { BackgroundGradient } from "./background-gradient";
+import { BackgroundGradient } from "./ui/background-gradient";
 
 export default function ProfileCard() {
   return (
