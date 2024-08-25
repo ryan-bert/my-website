@@ -1,6 +1,6 @@
 export default function NavBar() {
   return (
-    <nav className="flex flex-row justify-between py-3 px-3 bg-transparent text-white font-alphas">
+    <nav className="flex flex-row justify-between py-3 px-5 bg-transparent text-white font-semibold">
       <h1 className="w-[600px]">My Site</h1>
       <ul className="flex flex-row space-x-10">
         <li>
