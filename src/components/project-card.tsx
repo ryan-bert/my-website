@@ -3,7 +3,7 @@ import Tag from "./tag";
 export default function ProjectCard() {
   return (
     
-    <div className="flex flex-row h-auto p-7 rounded-3xl bg-secondary outline outline-4 outline-tertiary my-shadow">
+    <div className="flex flex-row h-auto p-7 z-50 rounded-3xl bg-secondary outline outline-4 outline-tertiary my-shadow">
       <div className="flex flex-col justify-start pr-4 w-[1200px]">
         <h1 className="text-4xl font-bold pb-4">Card Counting Simulator</h1>
         <img
