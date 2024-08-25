@@ -13,8 +13,8 @@ export default function App() {
         <Hero />
         <section id='projects' className="flex flex-col py-[60px] px-8">
         <h1 className="py-10 text-5xl text-center">
-          <span className='font-alpha'>My </span>
           <span className="px-5 py-1 rounded-xl font-source font-semibold bg-tertiary">
+            <span className=''>my </span>
             <span className="text-mygreen">projects</span>
             <span className="text-mypink">()</span>
             <span className="text-white">;</span>
@@ -31,13 +31,13 @@ export default function App() {
         </div>
         </section>
         <section id='about' className='py-[60px]'>
-          <h1 className="text-5xl text-center">
-            <span className='font-alpha'>About </span>
+          <h1 className="py-10 text-5xl text-center">
             <span className="px-5 py-1 rounded-xl font-source font-semibold bg-tertiary">
-            <span className="text-mygreen">me</span>
-            <span className="text-mypink">()</span>
-            <span className="text-white">;</span>
-          </span>
+              <span className=''>about </span>
+              <span className="text-mygreen">me</span>
+              <span className="text-mypink">()</span>
+              <span className="text-white">;</span>
+            </span>
           </h1>
           <div className="flex flex-row mx-40 my-20">
             <div className="flex w-1/2">
