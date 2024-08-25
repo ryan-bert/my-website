@@ -3,7 +3,9 @@ import NavBar from './components/nav-bar';
 import Hero from './components/hero';
 import ProjectCard from './components/project-card';
 import ProfileCard from './components/profile-card';
-import { FaGithub, FaImdb, FaGoodreads, FaLinkedin} from 'react-icons/fa';
+import { FaGithub, FaImdb, FaGoodreads, FaLinkedin } from 'react-icons/fa';
+import { SparklesCore } from './components/ui/sparkles';
+import Heading from './components/heading';
 
 export default function App() {
   return (
@@ -12,37 +14,25 @@ export default function App() {
         <NavBar />
         <Hero />
         <section id='projects' className="flex flex-col py-[60px] px-8">
-        <h1 className="py-10 text-5xl text-center">
-          <span className="px-5 py-1 rounded-xl font-source font-semibold bg-tertiary">
-            <span className=''>my </span>
-            <span className="text-mygreen">projects</span>
-            <span className="text-mypink">()</span>
-            <span className="text-white">;</span>
-          </span>
-        </h1>
-        <div className="flex flex-col space-y-20 bg-transparent mx-[15%]">
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-        </div>
+          <div className="relative flex flex-col items-center">
+            <Heading text="My Projects" />
+          </div>
+          <div className="flex flex-col space-y-20 bg-transparent mx-[15%]">
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+          </div>
         </section>
         <section id='about' className='py-[60px]'>
-          <h1 className="py-10 text-5xl text-center">
-            <span className="px-5 py-1 rounded-xl font-source font-semibold bg-tertiary">
-              <span className=''>about </span>
-              <span className="text-mygreen">me</span>
-              <span className="text-mypink">()</span>
-              <span className="text-white">;</span>
-            </span>
-          </h1>
+          <Heading text="About Me" />
           <div className="flex flex-row mx-40 my-20">
             <div className="flex w-1/2">
               <ProfileCard />
             </div>
             <div className="pl-10">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas perferendis dolorem quia provident dolor! Optio, aliquam, nulla non quod laboriosam quo iste tempore dolorem, iure perspiciatis assumenda amet cupiditate porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore repellendus laboriosam doloribus. Placeat, eius est laborum officiis explicabo maiores dicta doloremque, consectetur nisi ducimus in rem repellat veniam nam aliquid? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati quidem ab sunt laboriosam explicabo cupiditate, labore est sapiente in iure culpa cumque. Sequi voluptas cum atque eos veritatis expedita quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ratione. Fugiat aut minima nesciunt, maxime eos explicabo accusamus ab voluptas tenetur, eveniet pariatur? Similique optio rem voluptatum repudiandae, aliquam in!</p>
+              <p>Lorem ipsum dolor sit...</p>
             </div>
           </div>
         </section>
