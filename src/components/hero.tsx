@@ -6,7 +6,7 @@ export default function Hero() {
       <Vortex
         backgroundColor="black"
         rangeY={500}
-        particleCount={2000}
+        particleCount={1500}
         baseHue={0}
         className="flex flex-col justify-center px-2 md:px-[10%]  py-4 w-full h-full"
       >
