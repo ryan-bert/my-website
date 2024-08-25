@@ -39,11 +39,13 @@ export default function App() {
             <span className="text-white">;</span>
           </span>
           </h1>
-          <div className="flex flex-row mx-40">
+          <div className="flex flex-row mx-40 my-20">
             <div className="flex w-1/2">
               <ProfileCard />
             </div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas perferendis dolorem quia provident dolor! Optio, aliquam, nulla non quod laboriosam quo iste tempore dolorem, iure perspiciatis assumenda amet cupiditate porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore repellendus laboriosam doloribus. Placeat, eius est laborum officiis explicabo maiores dicta doloremque, consectetur nisi ducimus in rem repellat veniam nam aliquid?</p>
+            <div className="pl-10">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas perferendis dolorem quia provident dolor! Optio, aliquam, nulla non quod laboriosam quo iste tempore dolorem, iure perspiciatis assumenda amet cupiditate porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore repellendus laboriosam doloribus. Placeat, eius est laborum officiis explicabo maiores dicta doloremque, consectetur nisi ducimus in rem repellat veniam nam aliquid? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati quidem ab sunt laboriosam explicabo cupiditate, labore est sapiente in iure culpa cumque. Sequi voluptas cum atque eos veritatis expedita quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ratione. Fugiat aut minima nesciunt, maxime eos explicabo accusamus ab voluptas tenetur, eveniet pariatur? Similique optio rem voluptatum repudiandae, aliquam in!</p>
+            </div>
           </div>
         </section>
       </body>
@@ -60,7 +62,7 @@ export default function App() {
               <FaGoodreads size={30} />
             </a>
           </div>
-          <p className='text-xs'>© 2021 My Portfolio</p>
+          <p className='text-xs'>© 2024 My Portfolio</p>
         </div>
       </footer>
     </>
