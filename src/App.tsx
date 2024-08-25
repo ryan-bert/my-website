@@ -3,7 +3,7 @@ import NavBar from './components/nav-bar';
 import Hero from './components/hero';
 import ProjectCard from './components/project-card';
 import ProfileCard from './components/profile-card';
-import { FaGithub, FaImdb, FaGoodreads } from 'react-icons/fa';
+import { FaGithub, FaImdb, FaGoodreads, FaLinkedin} from 'react-icons/fa';
 
 export default function App() {
   return (
@@ -60,6 +60,9 @@ export default function App() {
             </a>
             <a href="https://www.goodreads.com/user/show/155746857-ryan-bertschinger" target="_blank" rel="noopener noreferrer">
               <FaGoodreads size={30} />
+            </a>
+            <a href="https://www.linkedin.com/in/ryan-bertschinger-458035211/" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin size={30} />
             </a>
           </div>
           <p className='text-xs'>© 2024 My Portfolio</p>
