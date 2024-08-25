@@ -39,7 +39,12 @@ export default function App() {
             <span className="text-white">;</span>
           </span>
           </h1>
-          <ProfileCard />
+          <div className="flex flex-row mx-40">
+            <div className="flex w-1/2">
+              <ProfileCard />
+            </div>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas perferendis dolorem quia provident dolor! Optio, aliquam, nulla non quod laboriosam quo iste tempore dolorem, iure perspiciatis assumenda amet cupiditate porro. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore repellendus laboriosam doloribus. Placeat, eius est laborum officiis explicabo maiores dicta doloremque, consectetur nisi ducimus in rem repellat veniam nam aliquid?</p>
+          </div>
         </section>
       </body>
       <footer>
