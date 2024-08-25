@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="relative h-[50vh] flex items-center justify-center">
+    <div className="relative h-[75vh] flex items-center justify-center">
       {/* Background Image with Gradients at Top and Bottom */}
       <div
         className="absolute inset-0 bg-cover bg-center filter blur-md"
@@ -10,7 +10,7 @@ export default function Hero() {
       ></div>
 
       {/* Content */}
-      <div className="w-3/4 relative z-10 text-white text-center p-8">
+      <div className="w-3/4 relative z-10 text-white text-center p-8 mr-[40%]">
         <h1 className="text-5xl font-alpha">Welcome to My Site</h1>
         <p className="text-xl mt-4 typing-animation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab velit doloremque nulla impedit molestias numquam, minima totam aut repellat veniam, quaerat distinctio sint adipisci. Deleniti commodi eveniet dolor vel saepe?</p>
         <button className="mt-8 px-6 py-2 my-button">
