@@ -20,7 +20,7 @@ export default function App() {
             <span className="text-white">;</span>
           </span>
         </h1>
-        <div className="flex flex-col bg-transparent space-y-20">
+        <div className="flex flex-col space-y-20 bg-transparent mx-[15%]">
           <ProjectCard />
           <ProjectCard />
           <ProjectCard />
