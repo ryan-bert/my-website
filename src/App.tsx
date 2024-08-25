@@ -15,7 +15,7 @@ export default function App() {
         <Hero />
         <section id='projects' className="flex flex-col py-[60px] px-8">
           <div className="relative flex flex-col items-center">
-            <Heading text="My Projects" />
+            <Heading text="my_projects();" />
           </div>
           <div className="flex flex-col space-y-20 bg-transparent mx-[15%]">
             <ProjectCard />
