@@ -18,9 +18,16 @@
 2. Other contents?
 - Body
 
+### Contact me
+- Content
+- backend
 
 ### Project info
 - Card counting
 - Financial Data Extractor
 - Diversification project
 - AI Road Repair
+
+### Final stretch
+- Optimisation?
+- Deployment
