@@ -4,17 +4,17 @@ export default function NavBar() {
       <h1 className="w-[600px]">My Site</h1>
       <ul className="flex flex-row space-x-10">
         <li>
-          <a href="#projects" className="relative after:absolute after:left-0 after:right-0 after:bottom-[-4px] after:h-[3px] after:bg-white after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
+          <a href="#projects" className="my-underline">
             Projects
           </a>
         </li>
         <li>
-          <a href="#about" className="relative after:absolute after:left-0 after:right-0 after:bottom-[-4px] after:h-[3px] after:bg-white after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
+          <a href="#about" className="my-underline">
             About
           </a>
         </li>
         <li>
-          <a href="#contact" className="relative after:absolute after:left-0 after:right-0 after:bottom-[-4px] after:h-[3px] after:bg-white after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
+          <a href="#contact" className="my-underline">
             Contact
           </a>
         </li>
