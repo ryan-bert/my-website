@@ -5,7 +5,6 @@ import ProjectCard from './components/project-card';
 import ProfileCard from './components/profile-card';
 import { FaGithub, FaImdb, FaGoodreads, FaLinkedin } from 'react-icons/fa';
 import { SparklesCore } from './components/ui/sparkles';
-import Heading from './components/heading';
 
 export default function App() {
   return (
@@ -15,7 +14,7 @@ export default function App() {
         <Hero />
         <section id='projects' className="flex flex-col py-[60px] px-8">
           <div className="relative flex flex-col items-center">
-            <Heading text="my_projects();" />
+            <h1 className="my-heading">my_projects();</h1>
           </div>
           <div className="flex flex-col space-y-20 bg-transparent mx-[15%]">
             <ProjectCard />
@@ -26,7 +25,7 @@ export default function App() {
           </div>
         </section>
         <section id='about' className='py-[60px]'>
-          <Heading text="About Me" />
+        <h1 className="my-heading">about_me();</h1>
           <div className="flex flex-row mx-40 my-20">
             <div className="flex w-1/2">
               <ProfileCard />
