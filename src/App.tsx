@@ -7,8 +7,6 @@ import { projectsData } from './data/projectsData';
 
 export default function App() {
 
-  let tags = ['Python', 'pandas', 'numpy', 'Statistics', 'TensorFlow'];
-
   return (
     <>
       <body className='bg-black pb-[1500px] text-white'>
