@@ -1,6 +1,6 @@
 import Tags from "./tags";
 
-interface ProjectCardProps {
+export interface ProjectCardProps {
   title: string;
   img: string;
   tags: string[];
@@ -30,7 +30,7 @@ export default function ProjectCard({title, img, tags, description, url}: Projec
         </div>
         <div className="ml-auto mt-4">
           <button className="w-fit px-4 py-2 my-button">
-            <a href={url}>View Project</a>
+            <a href={url} target="_blank">View Project</a>
           </button>
         </div>
       </div>
