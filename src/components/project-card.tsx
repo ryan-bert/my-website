@@ -1,18 +1,26 @@
 import Tag from "./tag";
 
-export default function ProjectCard() {
+interface ProjectCardProps {
+  title: string;
+  img: string;
+  tags: string[];
+  description: string;
+  url: string;
+}
+
+export default function ProjectCard({title, img, tags, description, url}: ProjectCardProps) {
   return (
     <div className="flex flex-row h-auto p-7 z-50 rounded-3xl bg-secondary outline outline-4 outline-tertiary my-shadow hover:outline-white hover:scale-[1.05] hover:shadow-none transition-all duration-500 ease-in-out">
-      <div className="flex flex-col justify-start pr-4 w-[1200px]">
-        <h1 className="text-4xl font-bold pb-4 whitespace-nowrap">Card Counting Simulator</h1>
+      <div className="flex flex-col justify-start mr-4">
+        <h1 className="text-4xl font-bold pb-4 whitespace-nowrap">{title}</h1>
         <img
-          src="simulation.png"
+          src={img}
           alt="Code"
           className="object-cover rounded-xl max-w-full max-h-60"
         />
       </div>
-      <div className="flex flex-col justify-between pl-4 relative">
-        <div className="absolute top-0 right-0">
+      <div className="flex flex-col pl-4 w-full space-y-12">
+        <div className="ml-auto">
           <div className="flex flex-row space-x-3 font-semibold">
             <Tag text="Python" color="bg-orange-400" />
             <Tag text="pandas" color="bg-red-400" />
@@ -21,17 +29,14 @@ export default function ProjectCard() {
             <Tag text="TensorFlow" color="bg-orange-400" />
           </div>
         </div>
-        <div className="flex-grow mt-20">
+        <div className="flex-grow">
           <p className="text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            similique doloremque atque et dolor itaque, blanditiis minus debitis
-            neque voluptas optio rerum pariatur provident quia asperiores nam
-            commodi aperiam corporis.
+            {description}
           </p>
         </div>
         <div className="ml-auto mt-4">
           <button className="w-fit px-4 py-2 my-button">
-            View Project
+            <a href={url}>View Project</a>
           </button>
         </div>
       </div>

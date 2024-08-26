@@ -7,6 +7,9 @@ import { FaGithub, FaImdb, FaGoodreads, FaLinkedin } from 'react-icons/fa';
 import { SparklesCore } from './components/ui/sparkles';
 
 export default function App() {
+
+  let tags = ['Python', 'pandas', 'numpy', 'Statistics', 'TensorFlow'];
+
   return (
     <>
       <body className='bg-black pb-[1500px] text-white'>
@@ -17,11 +20,7 @@ export default function App() {
             <h1 className="my-heading">my_projects();</h1>
           </div>
           <div className="flex flex-col space-y-20 bg-transparent mx-[15%]">
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
+            <ProjectCard title='Card Counting Simulator' img='simulation.png' tags={tags} description='This project is a Python-based simulation of Blackjack card counting. It includes a detailed implementation of the game mechanics, basic strategy, and the Zen card counting technique. The simulator allows users to run multiple rounds and games, tracking various statistics like total earnings, bets, and Return on Investment (ROI).' url='https://www.google.com'/>
           </div>
         </section>
         <section id='about' className='py-[60px]'>
