@@ -22,7 +22,7 @@ export default function App() {
             ))}
           </div>
         </section>
-        <section id='about' className='py-[60px]'>
+        <section id='about' className='my-[60px]'>
         <h1 className="my-heading">about_me();</h1>
           <div className="flex flex-row mx-40 my-20">
             <div className="flex w-1/2">
@@ -32,6 +32,9 @@ export default function App() {
               <p>Lorem ipsum dolor sit...</p>
             </div>
           </div>
+        </section>
+        <section id='contact' className='my-20'>
+          <h1 className="my-heading">Contact_me();</h1>
         </section>
       </body>
       <footer>
