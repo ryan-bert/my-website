@@ -1,4 +1,4 @@
-import Tag from "./tag";
+import Tags from "./tags";
 
 interface ProjectCardProps {
   title: string;
@@ -21,13 +21,8 @@ export default function ProjectCard({title, img, tags, description, url}: Projec
       </div>
       <div className="flex flex-col pl-4 w-full space-y-12">
         <div className="ml-auto">
-          <div className="flex flex-row space-x-3 font-semibold">
-            <Tag text="Python" color="bg-orange-400" />
-            <Tag text="pandas" color="bg-red-400" />
-            <Tag text="numpy" color="bg-green-600" />
-            <Tag text="Statistics" color="bg-blue-400" />
-            <Tag text="TensorFlow" color="bg-orange-400" />
-          </div>
+          {/* ADD TAGS */}
+          <Tags text={tags} />
         </div>
         <div className="flex-grow">
           <p className="text-white">
