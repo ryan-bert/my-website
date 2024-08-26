@@ -21,7 +21,6 @@ export default function ProjectCard({title, img, tags, description, url}: Projec
       </div>
       <div className="flex flex-col pl-4 w-full space-y-12">
         <div className="ml-auto">
-          {/* ADD TAGS */}
           <Tags text={tags} />
         </div>
         <div className="flex-grow">
