@@ -4,7 +4,7 @@ export default function ProfileCard() {
       <div className="pb-8 flex-shrink">
           <img src="me.jpg" alt="Display Photo" />
       </div>
-      <h2 className="font-alpha text-3xl">Ryan Bertschinger</h2>
+      <h2 className="text-3xl font-extrabold">Ryan Bertschinger</h2>
     </div>
   );
 }
