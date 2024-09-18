@@ -2,7 +2,7 @@ import { Vortex } from "./ui/vortex";
 
 export default function Hero() {
   return (
-    <div className="rounded-md h-[50vh] overflow-hidden">
+    <div className="rounded-md h-[100vh] overflow-hidden">
       <Vortex
         backgroundColor="black"
         rangeY={500}
