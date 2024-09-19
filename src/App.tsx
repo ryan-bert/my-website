@@ -28,18 +28,21 @@ export default function App() {
           <div className="relative my-20 text-lg">
             <WavyBackground className="max-w-4xl py-20">
           <h1 className="my-heading">about_me();</h1>
-              <p>
-                Hi, I’m Ryan! I’m a final-year student at Stellenbosch University, majoring in Financial Risk Management and Computer Science. I’ve always been fascinated by the intersection of data, technology, and finance, which has driven my passion for software development and problem-solving.
-              </p>
-              <p>
-                My journey started with actuarial science, where I developed a strong foundation in data-driven decision-making, before shifting to computer science to pursue my love for software engineering and machine learning. Along the way, I’ve worked on a variety of projects, from building full-stack web applications to participating in AI-driven hackathons, always eager to explore new technologies.
-              </p>
-              <p>
-                Outside of coding, I have a long-time obsession with data in all forms—whether it's analyzing portfolio strategies, rating movies on IMDb, or logging my daily cold showers. My curiosity doesn’t stop at software: I’m also a fan of Linux, Raspberry Pi projects, and learning as much as I can about the latest in tech.
-              </p>
-              <p>
-                I’m passionate about continuous learning, which fuels both my technical expertise and my social nature. I’ve read over 70 books, improving not just my knowledge but also my communication skills, helping me connect with people and explain complex concepts easily. I’m excited to keep growing, both personally and professionally, and I look forward to contributing to projects that challenge and inspire me.
-              </p>
+          <p className="mb-6">
+            Hi, I’m Ryan! I’m a final-year student at Stellenbosch University, majoring in Financial Risk Management and Computer Science. I’ve always been fascinated by the intersection of data, technology, and finance, which has driven my passion for software development and problem-solving.
+          </p>
+
+          <p className="mb-6">
+            My journey started with actuarial science, where I developed a strong foundation in data-driven decision-making, before shifting to computer science to pursue my love for software engineering and machine learning. Along the way, I’ve worked on a variety of projects, from building full-stack web applications to participating in AI-driven hackathons, always eager to explore new technologies.
+          </p>
+
+          <p className="mb-6">
+            Outside of coding, I’ve got a thing for data—whether it's analyzing portfolio strategies, rating movies on IMDb, or logging personal metrics. I’m also into Linux, Raspberry Pi projects, and staying up to date with the latest tech trends.
+          </p>
+
+          <p className="mb-6">
+            I’m passionate about continuous learning, and I enjoy picking up new skills in both technical and non-technical areas. I’m also an avid reader, which has helped me not only broaden my knowledge but also become a better communicator. I’m excited to keep growing, and I look forward to contributing to projects that challenge and inspire me.
+          </p>
             </WavyBackground>
           </div>
         </section>
