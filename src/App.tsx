@@ -25,10 +25,7 @@ export default function App() {
         </section>
         <section id='about' className='my-[60px]'>
           <h1 className="my-heading">about_me();</h1>
-          <div className="flex flex-row mx-40 my-20">
-            <div className="flex w-1/2">
-              <ProfileCard />
-            </div>
+          <div className="mx-40 my-20">
             <div className="pl-10">
               <p>
                 Hi, I’m Ryan! I’m a final-year student at Stellenbosch University, majoring in Financial Risk Management and Computer Science. I’ve always been fascinated by the intersection of data, technology, and finance, which has driven my passion for software development and problem-solving.
@@ -44,7 +41,14 @@ export default function App() {
         </section>
         <section id='contact' className='my-20'>
           <h1 className="my-heading">Contact_me();</h1>
-          <ContactForm />
+          <div className="flex flex-col items-center lg:flex-row mx-40">
+            <div className="w-full md:w-1/2">
+              <ProfileCard />
+            </div>
+            <div className="w-full md:w-1/2">
+              <ContactForm />
+            </div>
+          </div>
         </section>
       </body>
       <footer>
