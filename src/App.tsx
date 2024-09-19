@@ -2,6 +2,7 @@ import NavBar from './components/nav-bar';
 import Hero from './components/hero';
 import ProjectCard from './components/project-card';
 import ProfileCard from './components/profile-card';
+import ContactForm from './components/contact-form';
 import { FaGithub, FaImdb, FaGoodreads, FaLinkedin } from 'react-icons/fa';
 import { projectsData } from './data/projectsData';
 
@@ -43,6 +44,7 @@ export default function App() {
         </section>
         <section id='contact' className='my-20'>
           <h1 className="my-heading">Contact_me();</h1>
+          <ContactForm />
         </section>
       </body>
       <footer>
