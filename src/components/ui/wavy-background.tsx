@@ -61,11 +61,11 @@ export const WavyBackground = ({
   };
  
   const waveColors = colors ?? [
-    "#38bdf8",
-    "#818cf8",
-    "#c084fc",
-    "#e879f9",
-    "#22d3ee",
+    "rgba(56, 189, 248, 0.3)",  // Light blue with transparency
+    "rgba(129, 140, 248, 0.3)", // Light purple with transparency
+    "rgba(192, 132, 252, 0.3)", // Light violet with transparency
+    "rgba(232, 121, 249, 0.3)", // Light pink with transparency
+    "rgba(34, 211, 238, 0.3)",  // Light cyan with transparency
   ];
   const drawWave = (n: number) => {
     nt += getSpeed();
@@ -74,7 +74,7 @@ export const WavyBackground = ({
       ctx.lineWidth = waveWidth || 50;
       ctx.strokeStyle = waveColors[i % waveColors.length];
       for (x = 0; x < w; x += 5) {
-        var y = noise(x / 800, 0.3 * i, nt) * 100;
+        var y = noise(x / 800, 0.3 * i, nt) * 600;
         ctx.lineTo(x, y + h * 0.5); // adjust for height, currently at 50% of the container
       }
       ctx.stroke();
@@ -85,9 +85,9 @@ export const WavyBackground = ({
   let animationId: number;
   const render = () => {
     ctx.fillStyle = backgroundFill || "black";
-    ctx.globalAlpha = waveOpacity || 0.5;
+    ctx.globalAlpha = waveOpacity || 0.2;
     ctx.fillRect(0, 0, w, h);
-    drawWave(5);
+    drawWave(10);
     animationId = requestAnimationFrame(render);
   };
  
@@ -109,23 +109,15 @@ export const WavyBackground = ({
   }, []);
  
   return (
-    <div
-      className={cn(
-        "h-screen flex flex-col items-center justify-center",
-        containerClassName
-      )}
-    >
-      <canvas
-        className="absolute inset-0 z-0"
-        ref={canvasRef}
-        id="canvas"
-        style={{
-          ...(isSafari ? { filter: `blur(${blur}px)` } : {}),
-        }}
-      ></canvas>
-      <div className={cn("relative z-10", className)} {...props}>
-        {children}
-      </div>
+    <div className={cn("relative flex flex-col items-center justify-center", containerClassName)}>
+        <canvas
+            className="absolute inset-0 z-0 w-full h-full"
+            ref={canvasRef}
+            id="canvas"
+        ></canvas>
+        <div className={cn("relative z-10", className)} {...props}>
+            {children}
+        </div>
     </div>
   );
 };

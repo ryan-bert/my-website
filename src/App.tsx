@@ -3,6 +3,7 @@ import Hero from './components/hero';
 import ProjectCard from './components/project-card';
 import ProfileCard from './components/profile-card';
 import ContactForm from './components/contact-form';
+import { WavyBackground } from './components/ui/wavy-background';
 import { FaGithub, FaImdb, FaGoodreads, FaLinkedin } from 'react-icons/fa';
 import { projectsData } from './data/projectsData';
 
@@ -23,20 +24,23 @@ export default function App() {
             ))}
           </div>
         </section>
-        <section id='about' className='my-[60px]'>
+        <section id='about' className='relative my-[60px]'>
           <h1 className="my-heading">about_me();</h1>
-          <div className="mx-40 my-20">
-            <div className="pl-10">
+          <div className="relative my-20">
+            <WavyBackground className="max-w-4xl py-20">
               <p>
                 Hi, I’m Ryan! I’m a final-year student at Stellenbosch University, majoring in Financial Risk Management and Computer Science. I’ve always been fascinated by the intersection of data, technology, and finance, which has driven my passion for software development and problem-solving.
-                <br /><br />
+              </p>
+              <p>
                 My journey started with actuarial science, where I developed a strong foundation in data-driven decision-making, before shifting to computer science to pursue my love for software engineering and machine learning. Along the way, I’ve worked on a variety of projects, from building full-stack web applications to participating in AI-driven hackathons, always eager to explore new technologies.
-                <br /><br />
+              </p>
+              <p>
                 Outside of coding, I have a long-time obsession with data in all forms—whether it's analyzing portfolio strategies, rating movies on IMDb, or logging my daily cold showers. My curiosity doesn’t stop at software: I’m also a fan of Linux, Raspberry Pi projects, and learning as much as I can about the latest in tech.
-                <br /><br />
+              </p>
+              <p>
                 I’m passionate about continuous learning, which fuels both my technical expertise and my social nature. I’ve read over 70 books, improving not just my knowledge but also my communication skills, helping me connect with people and explain complex concepts easily. I’m excited to keep growing, both personally and professionally, and I look forward to contributing to projects that challenge and inspire me.
               </p>
-            </div>
+            </WavyBackground>
           </div>
         </section>
         <section id='contact' className='my-20'>
