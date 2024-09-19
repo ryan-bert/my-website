@@ -3,7 +3,7 @@ export default function ContactForm() {
       <form
         action="https://example.com/submit-form" // Replace with your actual form handling endpoint
         method="POST"
-        className="flex flex-col w-full max-w-lg space-y-6 bg-secondary p-8 rounded-lg outline outline-4 outline-tertiary my-shadow"
+        className="flex flex-col w-full max-w-lg p-8 space-y-6"
       >
         <div className="flex flex-col">
           <label htmlFor="name" className="text-white font-semibold mb-2">Name</label>
@@ -12,7 +12,7 @@ export default function ContactForm() {
             id="name"
             name="name"
             required
-            className="bg-white text-black px-4 py-2 rounded-lg focus:outline-none"
+            className="px-4 py-2 rounded-lg bg-secondary outline outline-4 outline-tertiary focus:outline-white"
           />
         </div>
         
@@ -23,7 +23,7 @@ export default function ContactForm() {
             id="email"
             name="email"
             required
-            className="bg-white text-black px-4 py-2 rounded-lg focus:outline-none"
+            className="px-4 py-2 rounded-lg bg-secondary outline outline-4 outline-tertiary focus:outline-white"
           />
         </div>
   
@@ -34,7 +34,7 @@ export default function ContactForm() {
             name="message"
             rows={4}
             required
-            className="bg-white text-black px-4 py-2 rounded-lg focus:outline-none"
+            className="px-4 py-2 rounded-lg bg-secondary outline outline-4 outline-tertiary focus:outline-white"
           ></textarea>
         </div>
   
