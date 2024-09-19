@@ -23,13 +23,21 @@ export default function App() {
           </div>
         </section>
         <section id='about' className='my-[60px]'>
-        <h1 className="my-heading">about_me();</h1>
+          <h1 className="my-heading">about_me();</h1>
           <div className="flex flex-row mx-40 my-20">
             <div className="flex w-1/2">
               <ProfileCard />
             </div>
             <div className="pl-10">
-              <p>Lorem ipsum dolor sit...</p>
+              <p>
+                Hi, I’m Ryan! I’m a final-year student at Stellenbosch University, majoring in Financial Risk Management and Computer Science. I’ve always been fascinated by the intersection of data, technology, and finance, which has driven my passion for software development and problem-solving.
+                <br /><br />
+                My journey started with actuarial science, where I developed a strong foundation in data-driven decision-making, before shifting to computer science to pursue my love for software engineering and machine learning. Along the way, I’ve worked on a variety of projects, from building full-stack web applications to participating in AI-driven hackathons, always eager to explore new technologies.
+                <br /><br />
+                Outside of coding, I have a long-time obsession with data in all forms—whether it's analyzing portfolio strategies, rating movies on IMDb, or logging my daily cold showers. My curiosity doesn’t stop at software: I’m also a fan of Linux, Raspberry Pi projects, and learning as much as I can about the latest in tech.
+                <br /><br />
+                I’m passionate about continuous learning, which fuels both my technical expertise and my social nature. I’ve read over 70 books, improving not just my knowledge but also my communication skills, helping me connect with people and explain complex concepts easily. I’m excited to keep growing, both personally and professionally, and I look forward to contributing to projects that challenge and inspire me.
+              </p>
             </div>
           </div>
         </section>
