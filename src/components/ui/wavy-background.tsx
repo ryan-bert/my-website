@@ -61,11 +61,11 @@ export const WavyBackground = ({
   };
  
   const waveColors = colors ?? [
-    "rgba(56, 189, 248, 0.3)",  // Light blue with transparency
-    "rgba(129, 140, 248, 0.3)", // Light purple with transparency
-    "rgba(192, 132, 252, 0.3)", // Light violet with transparency
-    "rgba(232, 121, 249, 0.3)", // Light pink with transparency
-    "rgba(34, 211, 238, 0.3)",  // Light cyan with transparency
+    "rgba(56, 189, 248, 0.2)",  // Light blue with transparency
+    "rgba(129, 140, 248, 0.2)", // Light purple with transparency
+    "rgba(192, 132, 252, 0.2)", // Light violet with transparency
+    "rgba(232, 121, 249, 0.2)", // Light pink with transparency
+    "rgba(34, 211, 238, 0.2)",  // Light cyan with transparency
   ];
   const drawWave = (n: number) => {
     nt += getSpeed();
@@ -87,7 +87,7 @@ export const WavyBackground = ({
     ctx.fillStyle = backgroundFill || "black";
     ctx.globalAlpha = waveOpacity || 0.2;
     ctx.fillRect(0, 0, w, h);
-    drawWave(10);
+    drawWave(5);
     animationId = requestAnimationFrame(render);
   };
  

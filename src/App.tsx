@@ -25,9 +25,9 @@ export default function App() {
           </div>
         </section>
         <section id='about' className='relative my-[60px]'>
-          <h1 className="my-heading">about_me();</h1>
           <div className="relative my-20">
             <WavyBackground className="max-w-4xl py-20">
+          <h1 className="my-heading">about_me();</h1>
               <p>
                 Hi, I’m Ryan! I’m a final-year student at Stellenbosch University, majoring in Financial Risk Management and Computer Science. I’ve always been fascinated by the intersection of data, technology, and finance, which has driven my passion for software development and problem-solving.
               </p>
