@@ -25,14 +25,14 @@ export const projectsData: ProjectCardProps[] = [
   {
     title: "Financial Data Extractor",
     img: "openbb.png",
-    tags: ['Python', 'finance', 'API', 'OpenBB', 'Data Extraction'],
+    tags: ['Python', 'finance', 'API', 'OpenBB'],
     description: "This Python script extracts financial data for stocks, cryptocurrencies, and forex rates. It leverages the OpenBB SDK to fetch data across various intervals, which can be exported into different formats. The project supports API integrations from services like Alpha Vantage and Financial Modeling Prep.",
     url: "https://github.com/ryan-bert/fin-data-extractor"
   },
   {
     title: "Personal Portfolio Website",
     img: "my-website.png",
-    tags: ['React', 'Tailwind CSS', 'JavaScript', 'Frontend'],
+    tags: ['React', 'Tailwind', 'JavaScript', 'Frontend'],
     description: "This is my personal portfolio website, built using React and Tailwind CSS. It features a dynamic layout with sections for showcasing my projects, sharing my story, and providing a contact form for visitors. The site includes animated components, interactive project cards, and links to my profiles on GitHub, IMDb, Goodreads, and LinkedIn.",
     url: "https://github.com/ryan-bert/my-website"
   }]
