@@ -20,7 +20,7 @@
 }
 
 .my-heading {
-  @apply text-5xl md:text-7xl font-source font-bold text-center text-white;
+  @apply mb-20 md:mb-40 text-5xl md:text-7xl font-source font-bold text-center text-white;
 }
 
 html {

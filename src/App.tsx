@@ -14,7 +14,7 @@ export default function App() {
       <body className='bg-black text-white'>
         <NavBar />
         <Hero />
-        <section id='projects' className="flex flex-col">
+        <section id='projects' className="flex flex-col my-20 md:my-40">
           <div className="relative flex flex-col items-center">
             <h1 className="my-heading">my_projects();</h1>
           </div>
