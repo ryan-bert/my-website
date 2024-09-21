@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <>
-      <body className='bg-white text-white'>
+      <body className='bg-black text-white'>
         <NavBar />
         <Hero />
         <section id='projects' className="flex flex-col py-[60px] px-8">
