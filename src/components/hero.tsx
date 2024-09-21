@@ -28,7 +28,9 @@ export default function Hero() {
           </h2>
           <div className="flex flex-row gap-4 mt-6 items-center">
             <p>Say less,</p>
-            <button className="px-4 py-2 my-button">Contact me</button>
+            <button className="px-4 py-2 my-button">
+              <a href="#contact">Contact me</a>
+            </button>
           </div>
         </div>
       </Vortex>
