@@ -14,11 +14,11 @@ export default function App() {
       <body className='bg-black text-white'>
         <NavBar />
         <Hero />
-        <section id='projects' className="flex flex-col py-[60px] px-8">
+        <section id='projects' className="flex flex-col">
           <div className="relative flex flex-col items-center">
             <h1 className="my-heading">my_projects();</h1>
           </div>
-          <div className="flex flex-col space-y-20 bg-transparent mx-[15%]">
+          <div className="flex flex-col space-y-20 bg-transparent">
             {projectsData.map((project, index) => (
               <ProjectCard key={index} {...project} />
             ))}
