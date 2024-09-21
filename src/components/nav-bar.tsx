@@ -1,6 +1,6 @@
 export default function NavBar() {
   return (
-    <nav className="flex flex-row justify-between py-3 px-2 md:px-5 bg-transparent text-white font-semibold">
+    <nav className="flex flex-row justify-between py-3 px-2 md:px-5 bg-black text-white font-semibold">
       <a href="/" className="w-auto">My Site</a>
       <ul className="flex flex-row space-x-5 md:space-x-10">
         <li>
