@@ -19,15 +19,17 @@ export default function Hero() {
         rangeY={500}
         particleCount={1500}
         baseHue={0}
-        className="flex flex-col justify-center w-full h-full"
+        className="flex flex-col justify-center w-full h-full items-center md:items-start md:pl-[10%] lg:pl-[15%]"
       >
-        <h2 className="text-white">
-          <div>Need a Software</div>
-          <div>Engineer?</div>
-        </h2>
-        <div className="flex flex-row gap-4 mt-6 items-center">
-          <p>Say less,</p>
-          <button className="px-4 py-2 my-button">Contact me</button>
+        <div className="flex-col">
+          <h2 className="text-white text-5xl md:text-7xl font-bold">
+            <div>Need a Software</div>
+            <div>Engineer?</div>
+          </h2>
+          <div className="flex flex-row gap-4 mt-6 items-center">
+            <p>Say less,</p>
+            <button className="px-4 py-2 my-button">Contact me</button>
+          </div>
         </div>
       </Vortex>
     </div>
