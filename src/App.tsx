@@ -24,8 +24,8 @@ export default function App() {
             ))}
           </div>
         </section>
-        <section id='about' className='relative my-[60px]'>
-          <div className="relative my-20 text-lg">
+        <section id='about' className='relative'>
+          <div className="relative text-lg">
             <WavyBackground className="max-w-4xl py-20">
           <h1 className="my-heading">about_me();</h1>
           <p className="mb-6">
