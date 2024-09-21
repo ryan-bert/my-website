@@ -20,7 +20,7 @@ export default function ProjectCard({ title, img, tags, description, url }: Proj
         />
       </div>
       <div className="flex flex-col pl-4 w-full">
-        <div className="ml-auto overflow-hidden pt-4 md:pt-0">
+        <div className="ml-auto overflow-hidden py-4 md:pt-0">
           <Tags text={tags} />
         </div>
         <div className="flex-grow flex items-center">
@@ -29,7 +29,7 @@ export default function ProjectCard({ title, img, tags, description, url }: Proj
           </p>
         </div>
         <div className="ml-auto mt-auto">
-          <button className="w-fit px-4 py-2 my-button">
+          <button className="w-fit mt-4 md:mt-0 px-4 py-2 my-button">
             <a href={url} target="_blank">View Project</a>
           </button>
         </div>
