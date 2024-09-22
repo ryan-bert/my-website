@@ -20,7 +20,7 @@ export default function ProjectCard({ title, img, tags, description, url }: Proj
         />
       </div>
       <div className="flex flex-col pl-4 w-full">
-        <div className="ml-auto overflow-hidden py-4 md:pt-0">
+        <div className="ml-auto overflow-hidden py-5 md:py-0">
           <Tags text={tags} />
         </div>
         <div className="flex-grow flex items-center">
