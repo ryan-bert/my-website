@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <>
-      <body className='bg-black text-white pb-20'>
+      <body className='bg-black text-white pb-10 md:pb-20'>
         <NavBar />
         <Hero />
         <section id='projects' className="flex flex-col my-20 md:my-40">
