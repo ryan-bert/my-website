@@ -43,9 +43,9 @@ export default function App() {
             </WavyBackground>
           </div>
         </section>
-        <section id='contact' className='flex flex-col items-center'>
+        <section id='contact' className='flex flex-col items-center px-[10%]'>
           <h1 className="my-heading">Contact_me();</h1>
-          <div className="flex flex-col lg:flex-row items-center">
+          <div className="flex flex-col lg:flex-row lg:space-x-[15%] items-center">
               <ProfileCard />
               <ContactForm />
           </div>
