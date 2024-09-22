@@ -51,7 +51,7 @@ export default function App() {
           </div>
         </section>
       </body>
-    <footer className="p-8 bg-secondary text-white text-center">
+    <footer className="p-8 md:p-10 bg-secondary text-white text-center">
       <p className='text-xs'>© 2024 My Portfolio | Built with ❤️ by Ryan</p>
     </footer>
     </>
