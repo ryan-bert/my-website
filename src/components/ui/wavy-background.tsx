@@ -9,7 +9,7 @@ export const WavyBackground = ({
   colors,
   waveWidth,
   backgroundFill,
-  blur = 10,
+  blur = 0,
   speed = "fast",
   waveOpacity = 0.5,
   ...props
@@ -61,11 +61,11 @@ export const WavyBackground = ({
   };
  
   const waveColors = colors ?? [
-    "rgba(56, 189, 248, 0.2)",  // Light blue with transparency
-    "rgba(129, 140, 248, 0.2)", // Light purple with transparency
-    "rgba(192, 132, 252, 0.2)", // Light violet with transparency
-    "rgba(232, 121, 249, 0.2)", // Light pink with transparency
-    "rgba(34, 211, 238, 0.2)",  // Light cyan with transparency
+    "rgba(56, 189, 248, 0.3)",  // Light blue with transparency
+    "rgba(129, 140, 248, 0.3)", // Light purple with transparency
+    "rgba(192, 132, 252, 0.3)", // Light violet with transparency
+    "rgba(232, 121, 249, 0.3)", // Light pink with transparency
+    "rgba(34, 211, 238, 0.3)",  // Light cyan with transparency
   ];
   const drawWave = (n: number) => {
     nt += getSpeed();
@@ -74,7 +74,7 @@ export const WavyBackground = ({
       ctx.lineWidth = waveWidth || 50;
       ctx.strokeStyle = waveColors[i % waveColors.length];
       for (x = 0; x < w; x += 5) {
-        var y = noise(x / 500, 0.3 * i, nt) * 400;
+        var y = noise(x / 800, 0.05 * i, nt) * 400;
         ctx.lineTo(x, y + h * 0.5); // adjust for height, currently at 50% of the container
       }
       ctx.stroke();
@@ -87,7 +87,7 @@ export const WavyBackground = ({
     ctx.fillStyle = backgroundFill || "black";
     ctx.globalAlpha = waveOpacity || 0.2;
     ctx.fillRect(0, 0, w, h);
-    drawWave(6);
+    drawWave(10);
     animationId = requestAnimationFrame(render);
   };
  
@@ -111,7 +111,7 @@ export const WavyBackground = ({
   return (
     <div className={cn("relative flex flex-col items-center justify-center", containerClassName)}>
         <canvas
-            className="absolute inset-0 z-0 w-full h-full"
+            className="absolute inset-0 z-0 w-full h-full blur-md"
             ref={canvasRef}
             id="canvas"
         ></canvas>
