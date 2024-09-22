@@ -24,7 +24,7 @@ export default function App() {
             ))}
           </div>
         </section>
-        <section id='about' className='relative'>
+        <section id='about' className='relative mb-10 md:mb-20'>
           <div className="relative text-lg">
             <WavyBackground className="max-w-4xl py-20">
           <h1 className="my-heading">about_me();</h1>
@@ -45,7 +45,7 @@ export default function App() {
         </section>
         <section id='contact'>
           <h1 className="my-heading">Contact_me();</h1>
-          <div className="flex flex-col lg:flex-row items-center justify-between mx-[5%]">
+          <div className="flex flex-col lg:flex-row items-center justify-between mx-[2.5%] 2xl:mx-[20%]">
               <ProfileCard />
               <ContactForm />
           </div>
