@@ -3,7 +3,7 @@ export default function ContactForm() {
       <form
         action="https://example.com/submit-form" // Replace with your actual form handling endpoint
         method="POST"
-        className="flex flex-col w-full max-w-lg p-8 space-y-6"
+        className="flex flex-col p-8 space-y-6"
       >
         <div className="flex flex-col">
           <label htmlFor="name" className="text-white font-semibold mb-2">Name</label>
