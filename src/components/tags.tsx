@@ -20,10 +20,22 @@ export default function Tags({ text }: TagsProps) {
 function getTagColor(tag: string): string {
   const colors: { [key: string]: string } = {
     Python: 'bg-blue-400',
+    React: 'bg-blue-400',
     matplotlib: 'bg-red-400',
+    cryptography: 'bg-red-400',
     pandas: 'bg-green-400',
+    security: 'bg-green-400',
+    API: 'bg-green-400',
+    Tailwind: 'bg-green-400',
     numpy: 'bg-yellow-400',
+    finance: 'bg-purple-400',
+    statistics: 'bg-orange-400',
+    JavaScript: 'bg-orange-400',
+    TensorFlow: 'bg-pink-400',
+    OpenBB: 'bg-pink-400',
+    SymPy: 'bg-pink-400',
+
   };
 
-  return colors[tag] || 'bg-gray-400'; // Default color if the tag doesn't match
+  return colors[tag] || 'bg-gray-400'; // Default color
 }
