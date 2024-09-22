@@ -51,25 +51,9 @@ export default function App() {
           </div>
         </section>
       </body>
-      <footer>
-        <div className="flex flex-col items-center p-4 bg-secondary text-white text-center">
-          <div className="flex space-x-4 mb-2">
-            <a href="https://github.com/ryan-bert" target="_blank" rel="noopener noreferrer">
-              <FaGithub size={30} />
-            </a>
-            <a href="https://www.imdb.com/user/ur58431544/ratings/?sort=top_rated%2Cdesc" target="_blank" rel="noopener noreferrer">
-              <FaImdb size={30} />
-            </a>
-            <a href="https://www.goodreads.com/user/show/155746857-ryan-bertschinger" target="_blank" rel="noopener noreferrer">
-              <FaGoodreads size={30} />
-            </a>
-            <a href="https://www.linkedin.com/in/ryan-bertschinger-458035211/" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin size={30} />
-            </a>
-          </div>
-          <p className='text-xs'>© 2024 My Portfolio</p>
-        </div>
-      </footer>
+    <footer className="p-8 bg-secondary text-white text-center">
+      <p className='text-xs'>© 2024 My Portfolio | Built with ❤️ by Ryan</p>
+    </footer>
     </>
   );
 }
