@@ -16,7 +16,7 @@ export default function ProjectCard({ title, img, tags, description, url }: Proj
         <img
           src={img}
           alt="Project Image"
-          className="object-cover rounded-xl max-w-full h-auto lg:max-w-[500px] max-h-60"
+          className="object-cover rounded-xl h-auto lg:max-w-[400px] xl:max-w-[500px] max-h-60"
         />
       </div>
       <div className="flex flex-col pl-4 w-full">
