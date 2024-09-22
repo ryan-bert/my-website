@@ -30,7 +30,7 @@ export default function ProjectCard({ title, img, tags, description, url }: Proj
         </div>
         <div className="ml-auto mt-auto">
           <button className="w-fit mt-4 md:mt-0 px-4 py-2 my-button">
-            <a href={url} target="_blank">View Project</a>
+            <a href={url} target="_blank">View Code</a>
           </button>
         </div>
       </div>
