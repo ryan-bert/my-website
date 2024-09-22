@@ -12,11 +12,11 @@ export default function ProjectCard({ title, img, tags, description, url }: Proj
   return (
     <div className="flex flex-col md:flex-row h-auto p-4 md:p-8 mx-[5%] xl:mx-[10%] rounded-3xl bg-secondary outline outline-4 outline-tertiary my-shadow hover:outline-white hover:scale-[1.05] hover:shadow-none transition-all duration-500 ease-in-out overflow-hidden">
       <div className="flex flex-col justify-start mr-4 flex-shrink-0">
-        <h1 className="text-4xl font-bold pb-4 md:whitespace-nowrap">{title}</h1>
+        <h1 className="text-3xl lg:text-4xl font-bold pb-4 md:whitespace-nowrap">{title}</h1>
         <img
           src={img}
           alt="Project Image"
-          className="object-cover rounded-xl h-auto lg:max-w-[400px] xl:max-w-[500px] max-h-60"
+          className="object-cover rounded-xl h-auto md:max-w-[300px] lg:max-w-[400px] xl:max-w-[500px] max-h-60"
         />
       </div>
       <div className="flex flex-col pl-4 w-full">
