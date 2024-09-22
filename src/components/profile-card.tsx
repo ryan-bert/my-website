@@ -2,8 +2,8 @@ import { FaGithub, FaImdb, FaGoodreads, FaLinkedin } from 'react-icons/fa';
 
 export default function ProfileCard() {
   return (
-    <div className="flex flex-col p-6 items-center w-[500px] rounded-3xl bg-secondary my-shadow outline outline-4 outline-tertiary my-shadow hover:outline-white hover:scale-[1.05] hover:shadow-none transition-all duration-500 ease-in-out">
-      <h2 className="text-5xl font-extrabold">Ryan Bertschinger</h2>
+    <div className="flex flex-col p-6 items-center md:w-[500px] rounded-3xl bg-secondary my-shadow outline outline-4 outline-tertiary my-shadow hover:outline-white hover:scale-[1.05] hover:shadow-none transition-all duration-500 ease-in-out">
+      <h2 className="text-4xl md:text-5xl font-extrabold text-nowrap">Ryan Bertschinger</h2>
       <div className="py-5 flex-shrink">
           <img src="me.jpg" alt="Display Photo" />
       </div>

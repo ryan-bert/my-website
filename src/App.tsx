@@ -45,13 +45,9 @@ export default function App() {
         </section>
         <section id='contact'>
           <h1 className="my-heading">Contact_me();</h1>
-          <div className="flex flex-col items-center lg:flex-row mx-40">
-            <div className="w-full md:w-1/2">
+          <div className="flex flex-col lg:flex-row items-center justify-between mx-[5%]">
               <ProfileCard />
-            </div>
-            <div className="w-full md:w-1/2">
               <ContactForm />
-            </div>
           </div>
         </section>
       </body>
