@@ -4,7 +4,6 @@ import ProjectCard from './components/project-card';
 import ProfileCard from './components/profile-card';
 import ContactForm from './components/contact-form';
 import { WavyBackground } from './components/ui/wavy-background';
-import { FaGithub, FaImdb, FaGoodreads, FaLinkedin } from 'react-icons/fa';
 import { projectsData } from './data/projectsData';
 
 export default function App() {
