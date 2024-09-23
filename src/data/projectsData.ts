@@ -2,10 +2,10 @@ import { ProjectCardProps } from "../components/project-card";
 
 export const projectsData: ProjectCardProps[] = [
   {
-    title: "Card Counting Simulator",
+    title: "Card Counting Simulation",
     img: "blackjack.png",
     tags: ['Python', 'pandas', 'numpy', 'statistics', 'TensorFlow'],
-    description: "This project is a Python-based simulation of Blackjack card counting. It includes a detailed implementation of the game mechanics, basic strategy, and the Zen card counting technique. The simulator allows users to run multiple rounds and games, tracking various statistics like total earnings, bets, and Return on Investment (ROI).",
+    description: "This Python-based Blackjack simulator offers a detailed implementation of game mechanics, basic strategy, and the Zen card counting technique. By simulating millions of rounds, it provides in-depth insights into Blackjack strategies and statistical outcomes. Users can track metrics like total earnings, bets, and Return on Investment (ROI) to analyze the effectiveness of card counting over extensive gameplay.",
     url: "https://github.com/ryan-bert/card-counting"
   },
   {
