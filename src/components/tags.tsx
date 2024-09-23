@@ -5,9 +5,9 @@ interface TagsProps {
 export default function Tags({ text }: TagsProps) {
   return (
     <>
-      <div className="flex flex-row space-x-3 font-semibold">
+      <div className="flex flex-wrap flex-row space-x-3 font-semibold">
         {text.map((tag, index) => (
-          <p key={index} className={`rounded-xl px-2 ${getTagColor(tag)}`}>
+          <p key={index} className={`rounded-xl mt-3 px-2 ${getTagColor(tag)}`}>
             {tag}
           </p>
         ))}
