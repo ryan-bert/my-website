@@ -9,11 +9,11 @@ export const projectsData: ProjectCardProps[] = [
     url: "https://github.com/ryan-bert/card-counting"
   },
   {
-    title: "Diversification Project",
+    title: "Diversification Analysis",
     img: "candles.png",
     tags: ['Python', 'pandas', 'matplotlib', 'statistics', 'finance'],
-    description: "This project analyzes the effectiveness of portfolio diversification during pre- and post-COVID-19 periods. It examines correlations between various asset classes and the S&P 500, offering insights into performance across different market conditions. Data analysis and visualizations were done using Python libraries.",
-    url: "https://github.com/ryan-bert/diversification-project"
+    description: "An in-depth study examining the effectiveness of portfolio diversification before and after the COVID-19 pandemic. This project analyzes historical data across various asset classes and their correlations with the S&P 500 during significant market upheavals. Insights from the analysis help investors understand risk management and asset allocation strategies during black swan events. Data processing and visualizations are performed using Python libraries.",
+    url: "https://github.com/ryan-bert/diversification-covid19-analysis"
   },
   {
     title: "Shamir Secret Seed Splitter",
