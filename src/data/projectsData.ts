@@ -32,7 +32,7 @@ export const projectsData: ProjectCardProps[] = [
   {
     title: "Personal Portfolio Website",
     img: "my-website.png",
-    tags: ['React', 'Tailwind', 'JavaScript', 'frontend'],
+    tags: ['React', 'Tailwind', 'TypeScript', 'frontend'],
     description: "This is my personal portfolio website, built using React and Tailwind CSS. It features a dynamic layout with sections for showcasing my projects, sharing my story, and providing a contact form for visitors. The site includes animated components, interactive project cards, and links to my profiles on GitHub, IMDb, Goodreads, and LinkedIn.",
     url: "https://github.com/ryan-bert/my-website"
   }]
