@@ -10,7 +10,7 @@ export const projectsData: ProjectCardProps[] = [
   },
   {
     title: "Diversification Analysis",
-    img: "candles.png",
+    img: "bloomberg.png",
     tags: ['Python', 'pandas', 'matplotlib', 'statistics', 'finance'],
     description: "An in-depth study examining the effectiveness of portfolio diversification before and after the COVID-19 pandemic. This project analyzes historical data across various asset classes and their correlations with the S&P 500 during significant market upheavals. Insights from the analysis help investors understand risk management and asset allocation strategies during black swan events. Data processing and visualizations are performed using Python libraries.",
     url: "https://github.com/ryan-bert/diversification-covid19-analysis"
