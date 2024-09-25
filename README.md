@@ -1,61 +1,58 @@
-# TODO:
-### Hero & NavBar
-- Scaling
-- Title & body?
-- Try different patterns
+# My Personal Portfolio Website
 
-### ProjectCard
-    - Interface:
-    1. Heading
-    2. Tags
-    3. Body
-    4. Button
-- Scaling
+## Features
 
-### About me
-- ProfileCard:
-1. Name font
-2. Other contents?
-- Body
-- Scaling
+- **Dynamic Layout:** Responsive design that adapts to various screen sizes.
+- **Interactive Components:** Animated elements like the vortex background and project cards.
+- **Project Showcase:** Detailed descriptions and images of my projects.
+- **About Me:** Insight into my background, education, and interests.
+- **Contact Form:** Functional form connected to Firebase Firestore for message storage.
+- **Social Links:** Quick access to my GitHub, IMDb, Goodreads, and LinkedIn profiles.
 
-### Contact me
-- Heading
-- Content
-- Animations
-- Backend
+## Demo
 
-### Project info
-- Card counting
-- Financial Data Extractor
-- Diversification project
-- AI Road Repair
+You can view the live website [here](https://ryanbertschinger.com).
 
-### Final stretch
-- Optimization?
-- Documentation
-- Deployment
+## Installation & Usage
 
-### Familiar Technologies/Concepts
-1. Python
-2. C
-3. Java
-4. JavaScript
-5. TypeScript
-6. HTML
-7. CSS
-8. Markdown
-9. Latex
-10. Windows
-11. MacOS
-12. Linux
-13. pandas
-14. numpy
-15. matplotlib
-16. TensorFlow
-17. OpenBB SDK
-18. Beautiful Soup
-19. Flask
-20. React JS
-21. Tailwind CSS
-22. Firebase
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ryan-bert/my-website.git
+cd my-website
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Set up Firebase configuration:
+- Create a .env.local file in the root directory.
+- Add your Firebase configuration variables:
+```env
+REACT_APP_FIREBASE_API_KEY=your_api_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
+REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+REACT_APP_FIREBASE_APP_ID=your_app_id
+REACT_APP_FIREBASE_MEASUREMENT_ID=your_measurement_id
+```
+
+4. Start the developement server:
+```bash
+npm start
+```
+The website will be available at `http://localhost:3000`.
+
+## Technologies Used
+
+- **React: Front**-end library for building user interfaces.
+- **TypeScript: Adds** static typing to JavaScript, improving developer experience.
+- **Tailwind CSS:** Utility-first CSS framework for rapid UI development.
+- **Firebase: Backend**-as-a-service for handling the contact form submissions.
+- **Animated Components:** Imported from Aceternity, including the vortex background and wavy animations.
+
+© 2024 My Portfolio | Built with ❤️ by Ryan
