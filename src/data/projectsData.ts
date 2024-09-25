@@ -19,7 +19,7 @@ export const projectsData: ProjectCardProps[] = [
     title: "Shamir Secret Seed Splitter",
     img: "bitcoin-key.png",
     tags: ['Python', 'cryptography', 'SymPy', 'security'],
-    description: "This Python application allows users to securely split and reconstruct private keys or seed phrases using Shamir's Secret Sharing Scheme. It provides functionality to split a BIP39-compatible seed phrase or private key into multiple shares, which can then be securely stored. Reconstruction requires a minimum threshold of shares to retrieve the original secret.",
+    description: "This Python application securely splits and reconstructs Bitcoin private keys and BIP39 seed phrases using Shamir's Secret Sharing Scheme. It allows you to divide a private key or seed phrase into multiple shares, enhancing security by requiring only a specified threshold of shares for reconstruction. This tool provides an effective method for safeguarding digital assets against loss or unauthorized access through distributed storage.",
     url: "https://github.com/ryan-bert/shamir-secret-seed-splitter"
   },
   {
