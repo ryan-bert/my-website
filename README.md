@@ -53,6 +53,6 @@ The website will be available at `http://localhost:3000`.
 - **TypeScript: Adds** static typing to JavaScript, improving developer experience.
 - **Tailwind CSS:** Utility-first CSS framework for rapid UI development.
 - **Firebase: Backend**-as-a-service for handling the contact form submissions.
-- **Animated Components:** Imported from Aceternity, including the vortex background and wavy animations.
+- **Animated Components:** Imported from [Aceternity](https://www.aceternity.com), including the vortex background and wavy animations.
 
 © 2024 My Portfolio | Built with ❤️ by Ryan
