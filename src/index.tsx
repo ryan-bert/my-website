@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { analytics } from './firebaseConfig';
+import './firebaseConfig'; // initialises Firebase and Analytics on load
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 

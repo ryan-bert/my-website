@@ -1,5 +1,5 @@
 import { cn } from "../../lib/utils";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import { createNoise3D } from "simplex-noise";
  
 export const WavyBackground = ({
@@ -96,16 +96,8 @@ export const WavyBackground = ({
     return () => {
       cancelAnimationFrame(animationId);
     };
-  }, []);
- 
-  const [isSafari, setIsSafari] = useState(false);
-  useEffect(() => {
-    // I'm sorry but i have got to support it on safari.
-    setIsSafari(
-      typeof window !== "undefined" &&
-        navigator.userAgent.includes("Safari") &&
-        !navigator.userAgent.includes("Chrome")
-    );
+    // Mount-only: init() starts its own animation loop, so re-running it would stack loops.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
  
   return (
