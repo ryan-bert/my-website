@@ -2,37 +2,23 @@ import { ProjectCardProps } from "../components/project-card";
 
 export const projectsData: ProjectCardProps[] = [
   {
-    title: "Card Counting Simulation",
-    img: "blackjack.png",
-    tags: ['Python', 'pandas', 'numpy', 'statistics', 'TensorFlow'],
-    description: "This Python-based Blackjack simulator offers a detailed implementation of game mechanics, basic strategy, and the Zen card counting technique. By simulating millions of rounds, it provides in-depth insights into Blackjack strategies and statistical outcomes. Users can track metrics like total earnings, bets, and Return on Investment (ROI) to analyze the effectiveness of card counting over extensive gameplay.",
-    url: "https://github.com/ryan-bert/card-counting"
-  },
-  {
-    title: "Diversification Analysis",
+    title: "Allocation Engine",
     img: "bloomberg.png",
-    tags: ['Python', 'pandas', 'matplotlib', 'statistics', 'finance'],
-    description: "An in-depth study examining the effectiveness of portfolio diversification before and after the COVID-19 pandemic. This project analyzes historical data across various asset classes and their correlations with the S&P 500 during significant market upheavals. Insights from the analysis help investors understand risk management and asset allocation strategies during black swan events. Data processing and visualizations are performed using Python libraries.",
-    url: "https://github.com/ryan-bert/diversification-covid19-analysis"
+    tags: ['R', 'dplyr', 'ggplot2', 'PostgreSQL', 'backtesting'],
+    description: "A portfolio backtesting engine in R that keeps the strategy separate from the machinery that tests it. A strategy is a single function returning target weights; the engine aligns asset histories loaded from PostgreSQL, rebalances on a fixed schedule, charges transaction fees, and accrues interest on leverage or idle cash at the 3-month US Treasury rate. It then compares the portfolio with a benchmark on CAGR, volatility, Sharpe, Sortino, Calmar and maximum drawdown, and plots indexed returns, drawdowns and weights over time.",
+    url: "https://github.com/ryan-bert/allocation-engine"
   },
   {
-    title: "Shamir Secret Seed Splitter",
-    img: "bitcoin-key.png",
-    tags: ['Python', 'cryptography', 'SymPy', 'security'],
-    description: "This Python application securely splits and reconstructs Bitcoin private keys and BIP39 seed phrases using Shamir's Secret Sharing Scheme. It allows you to divide a private key or seed phrase into multiple shares, enhancing security by requiring only a specified threshold of shares for reconstruction. This tool provides an effective method for safeguarding digital assets against loss or unauthorized access through distributed storage.",
-    url: "https://github.com/ryan-bert/shamir-secret-seed-splitter"
+    title: "Microstructure Simulation",
+    img: "candles.png",
+    tags: ['Python', 'Flask', 'order book', 'matching engine'],
+    description: "A limit order book and matching engine written in Python. Orders enter an instruction queue (new, cancel, price or quantity update) and the engine fills market and limit orders against the opposite side of the book with price-time priority, logging every trade. The market runs as a Flask server with an interactive command-line client for submitting orders, and the repository includes a scripted simulation, unit tests for the order book and a throughput test.",
+    url: "https://github.com/ryan-bert/microstructure-simulation"
   },
   {
-    title: "Financial Data Extractor",
-    img: "openbb.png",
-    tags: ['Python', 'finance', 'API', 'OpenBB'],
-    description: "This Python script extracts financial data for stocks, cryptocurrencies, and forex rates. It leverages the OpenBB SDK to fetch data across various intervals, which can be exported into different formats. The project supports API integrations from services like Alpha Vantage and Financial Modeling Prep.",
-    url: "https://github.com/ryan-bert/fin-data-extractor"
-  },
-  {
-    title: "Personal Portfolio Website",
-    img: "my-website.png",
-    tags: ['React', 'Tailwind', 'TypeScript', 'frontend'],
-    description: "Wait a second, you're already here... But in case you're curious about the behind-the-scenes, this website is built using React, Tailwind CSS, and TypeScript. It features a responsive and dynamic layout, including sections for project showcases, an about me page, and a functional contact form integrated with Firebase Firestore. The site utilizes interactive components and animations to enhance user engagement, and incorporates external libraries like React Icons for social media links. The project demonstrates proficiency in modern front-end development and design principles.",
-    url: "https://github.com/ryan-bert/my-website"
+    title: "Yield Curve",
+    img: "yield-curve.png",
+    tags: ['R', 'ggplot2', 'gganimate', 'PostgreSQL', 'fixed income'],
+    description: "R functions that plot the US Treasury yield curve from bond yields stored in PostgreSQL. The static plot shows the curve on a chosen date alongside the curves one, two and three months earlier, and the animated plot steps through every date in a range to show how the curve's level and shape change over time. Both outputs are saved to the repository's plots folder.",
+    url: "https://github.com/ryan-bert/yield-curve"
   }]
