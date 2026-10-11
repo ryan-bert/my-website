@@ -10,7 +10,7 @@ export default function App() {
 
   return (
     <>
-      <body className='bg-black text-white overflow-hidden pb-10 md:pb-20'>
+      <main className='bg-black text-white overflow-hidden pb-10 md:pb-20'>
         <NavBar />
         <Hero />
         <section id='projects' className="flex flex-col my-20 md:my-40">
@@ -28,16 +28,13 @@ export default function App() {
             <WavyBackground className="py-20 max-w-[90%] lg:max-w-[75%] xl:max-w-[65%]">
           <h1 className="my-heading">about_me();</h1>
           <p className="mb-6">
-            Hi, I’m Ryan! I’m a final-year student at Stellenbosch University, majoring in Financial Risk Management and Computer Science. I’ve always been fascinated by the intersection of data, technology, and finance, which has driven my passion for software development and problem-solving.
+            Hi, I’m Ryan! I’m a Quantitative Developer at Ironclad Asset Management in Johannesburg, where I’ve worked since November 2024. I’m the sole developer of the firm’s data platform, which covers its SQL database, internal API, data pipelines and AI tooling.
           </p>
           <p className="mb-6">
-            Starting out in actuarial science, I developed a strong foundation in data-driven decision-making, but my love for software engineering and machine learning led me to pursue computer science. Along the way, I’ve worked on various projects—from building full-stack web applications to participating in AI-driven hackathons—always eager to explore new technologies and tackle challenging problems.
+            Before that, I studied at Stellenbosch University. I’ve always been fascinated by the intersection of data, technology and finance, which is what drives my passion for software development and problem-solving.
           </p>
           <p className="mb-6">
-          I find joy in uncovering patterns and insights, whether it’s analyzing portfolio strategies, rating movies on IMDb, or logging personal metrics. My curiosity also leads me to tinker with Linux and Raspberry Pi projects, keeping me connected with the latest tech trends.
-          </p>
-          <p className="mb-6">
-            I’m passionate about continuous learning and enjoy picking up new skills in both technical and non-technical areas. Reading is one of my favorite ways to explore new ideas and perspectives. I’m excited to keep growing and look forward to contributing to projects that challenge and inspire me.
+            Outside of work I enjoy picking up new skills in both technical and non-technical areas, tinkering with Linux, and reading, which is one of my favourite ways to explore new ideas and perspectives.
           </p>
             </WavyBackground>
           </div>
@@ -49,9 +46,9 @@ export default function App() {
               <ContactForm />
           </div>
         </section>
-      </body>
+      </main>
     <footer className="p-8 md:p-10 bg-secondary text-white text-center">
-      <p className='text-xs'>© 2024 My Portfolio | Built with ❤️ by Ryan</p>
+      <p className='text-xs'>© {new Date().getFullYear()} My Portfolio | Built with ❤️ by Ryan</p>
     </footer>
     </>
   );
