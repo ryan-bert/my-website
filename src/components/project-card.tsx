@@ -29,9 +29,9 @@ export default function ProjectCard({ title, img, tags, description, url }: Proj
           </p>
         </div>
         <div className="ml-auto mt-4 lg:mt-auto">
-          <button className="w-fit px-4 py-2 my-button">
-            <a href={url} target="_blank" rel="noreferrer">View Code</a>
-          </button>
+          <a href={url} target="_blank" rel="noreferrer" className="inline-block w-fit px-4 py-2 my-button">
+            View Code
+          </a>
         </div>
       </div>
     </div>
