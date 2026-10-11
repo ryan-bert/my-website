@@ -1,37 +1,23 @@
-# My Personal Portfolio Website
+# Personal website
 
-## Features
+Source for [ryanbertschinger.com](https://ryanbertschinger.com): a single-page portfolio with a project showcase, an about section and a contact form. It is a Create React App project written in TypeScript and styled with Tailwind CSS. Contact form submissions are stored in Firebase Firestore, and the animated backgrounds are adapted from [Aceternity](https://www.aceternity.com).
 
-- **Dynamic Layout:** Responsive design that adapts to various screen sizes.
-- **Interactive Components:** Animated elements like the vortex background and project cards.
-- **Project Showcase:** Detailed descriptions and images of my projects.
-- **About Me:** Insight into my background, education, and interests.
-- **Contact Form:** Functional form connected to Firebase Firestore for message storage.
-- **Social Links:** Quick access to my GitHub, IMDb, Goodreads, and LinkedIn profiles.
+## Requirements
 
-## Demo
+- Node.js and npm
+- A Firebase project with Firestore enabled, for the contact form
 
-You can view the live website [here](https://ryanbertschinger.com).
+## Running locally
 
-## Installation & Usage
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
 ```bash
 git clone https://github.com/ryan-bert/my-website.git
 cd my-website
-```
-
-2. Install dependencies:
-```bash
 npm install
 ```
 
-3. Set up Firebase configuration:
-- Create a .env.local file in the root directory.
-- Add your Firebase configuration variables:
-```env
+Create `.env.local` in the repository root with your Firebase web app configuration:
+
+```bash
 REACT_APP_FIREBASE_API_KEY=your_api_key
 REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
 REACT_APP_FIREBASE_PROJECT_ID=your_project_id
@@ -41,18 +27,16 @@ REACT_APP_FIREBASE_APP_ID=your_app_id
 REACT_APP_FIREBASE_MEASUREMENT_ID=your_measurement_id
 ```
 
-4. Start the developement server:
+Then start the development server, which serves the site at `http://localhost:3000`:
+
 ```bash
 npm start
 ```
-The website will be available at `http://localhost:3000`.
 
-## Technologies Used
+## Building and deploying
 
-- **React: Front**-end library for building user interfaces.
-- **TypeScript: Adds** static typing to JavaScript, improving developer experience.
-- **Tailwind CSS:** Utility-first CSS framework for rapid UI development.
-- **Firebase: Backend**-as-a-service for handling the contact form submissions.
-- **Animated Components:** Imported from [Aceternity](https://www.aceternity.com), including the vortex background and wavy animations.
+`npm run build` writes a production build to `build/`. `npm run deploy` builds the site and publishes `build/` to the `gh-pages` branch, which GitHub Pages serves at the custom domain in `public/CNAME`.
 
-© 2024 My Portfolio | Built with ❤️ by Ryan
+## Licence
+
+MIT, see [LICENSE](LICENSE).
